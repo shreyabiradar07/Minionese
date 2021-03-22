@@ -45,7 +45,7 @@ overflow: scroll;
 border: 1px solid black;
 } 
 footer {
-    position: fixed;
+    position:relative;
     bottom: 0;
     width: 100%;
     padding: 1rem;
@@ -57,7 +57,7 @@ footer p {
   max-width: 600px;
     margin: auto;
 }
-@media only screen and (max-width:660px){
+@media only screen and (max-width:600px){
   footer{
     font-size:0.8rem;
   }
