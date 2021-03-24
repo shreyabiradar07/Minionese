@@ -23,7 +23,7 @@ main {
 textarea {
   display: block;
   width: 100%;
-  min-height: 20vh;
+  min-height: 15vh;
   margin-top: 1rem;
   font-size: large;
   box-sizing: border-box;
@@ -49,8 +49,8 @@ button {
 #output-div {
   box-sizing: border-box;
   width: 100%;
-  min-height: 18vh;
-  max-height: 22vh;
+  min-height: 15vh;
+  max-height: 20vh;
   overflow: scroll;
   border: 1px solid black;
 }
