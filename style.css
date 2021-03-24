@@ -8,7 +8,7 @@ body {
   color: #333333;
   font-family: "Oswald", sans-serif;
 }
-
+/* header */
 header {
   background-color: #ffd700;
   padding: 1rem;
@@ -19,13 +19,20 @@ main {
   padding: 1rem;
   max-width: 600px;
 }
+/* English text area */
 textarea {
   display: block;
   width: 100%;
-  min-height: 15vh;
+  min-height: 20vh;
   margin-top: 1rem;
   font-size: large;
   box-sizing: border-box;
+}
+/* Translate button */
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
 }
 button {
   padding: 1rem 2rem;
@@ -33,15 +40,21 @@ button {
   background-color: #ffd700;
   border: none;
   font-size: large;
+  
 }
+.text{
+  text-align: center;
+}
+/* Translated Minionese text */
 #output-div {
   box-sizing: border-box;
   width: 100%;
-  min-height: 15vh;
-  max-height: 20vh;
+  min-height: 18vh;
+  max-height: 22vh;
   overflow: scroll;
   border: 1px solid black;
 }
+/* Footer */
 footer {
   position: absolute;
   bottom: 0;
@@ -57,18 +70,19 @@ footer p {
   margin: auto;
 }
 
-
-@media only screen and (max-width: 660px){
+/* Media queries */
+@media only screen and (max-width: 660px) {
   footer {
     font-size: 0.8rem;
   }
 }
 
 @media only screen and (max-height: 596px) {
-  footer{
+  footer {
     display: none;
   }
-  header{
+  header {
     padding: 0.8rem;
+    font-size: 0.8rem;
   }
 }
