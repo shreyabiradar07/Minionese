@@ -73,7 +73,7 @@ footer p {
 /* Media queries */
 @media only screen and (max-width: 660px) {
   footer {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 
