@@ -64,7 +64,7 @@ footer p {
   }
 }
 
-@media only screen and (max-height: 560px) {
+@media only screen and (max-height: 596px) {
   footer{
     display: none;
   }
