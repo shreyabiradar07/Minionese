@@ -23,7 +23,7 @@ main {
 textarea {
   display: block;
   width: 100%;
-  min-height: 20vh;
+  min-height: 18vh;
   margin-top: 1rem;
   font-size: large;
   box-sizing: border-box;
@@ -73,7 +73,7 @@ footer p {
 /* Media queries */
 @media only screen and (max-width: 660px) {
   footer {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
    button{
     padding: 0.8rem 1.5rem;
@@ -81,14 +81,15 @@ footer p {
     font-size: 0.8rem;
     font-weight: large;
   }
+    header {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
 }
 
 @media only screen and (max-height: 596px) {
   footer {
     display: none;
   }
-  header {
-    padding: 0.8rem;
-    font-size: 0.8rem;
-  }
+
 }
